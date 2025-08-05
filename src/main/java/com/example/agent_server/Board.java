@@ -12,6 +12,7 @@ import lombok.Data;
 @Entity
 @Table(name = "boards")
 @Data
+@NoArgsConstructor    
 @AllArgsConstructor
 public class Board {
     
@@ -28,3 +29,4 @@ public class Board {
     }
     
 }
+
